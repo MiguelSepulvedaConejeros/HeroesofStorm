@@ -3,7 +3,7 @@
     <v-row class="description">
         <h1>Desafia las expectativas de los MOBA</h1>
         <p>Epicos heroes y accion sin cesar en multples campos de batalla</p>
-        <v-btn class="btn-heroes">Ver Heroes</v-btn>
+        <v-btn class="btn-heroes" @click="$router.push('/HeroesView')">Ver Heroes</v-btn>
     </v-row>
   </v-container>
   <v-alert class="desp-heroes" v-model="alert" border="start" close-label="Close Alert" variant="tonal">!Te damos la bienvenida al Nexo¡!En este reino entre reinos, todo es posible¡ Elige entre decenas de heroes legendarios de todo el panteón de Blizzard, personaloza sus talentos y habilidades en medio del combate y lucha en una infinidad de campos de batalla que redefinen el genero. ¡Esto no es un MOBA promedio, esto es Heroes of the Storm¡</v-alert>

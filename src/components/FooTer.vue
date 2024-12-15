@@ -6,10 +6,10 @@
 .v-footer{
     display: flex;
     justify-content: center;
+    max-height:50px;
     color: white;
     background-color: blue;
-    position: relative;
-    top:570px;
+    overflow: hidden;
     z-index: 3;
 }
 </style>

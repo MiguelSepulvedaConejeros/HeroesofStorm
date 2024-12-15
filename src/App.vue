@@ -3,8 +3,8 @@
     <NavBar/>
     <v-main>
       <router-view/>
-      <FooTer/>
     </v-main>
+    <FooTer/>
   </v-app>
 </template>
 
@@ -55,5 +55,4 @@ export default {
   position: relative;
   z-index: 3;
 }
-
 </style>
