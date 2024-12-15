@@ -25,7 +25,7 @@ export default {
 .background-image {
   position: relative;
   height: 100vh;
-  overflow: hidden;
+
 }
 
 .background-image::before {

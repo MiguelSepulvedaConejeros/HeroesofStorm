@@ -1,7 +1,7 @@
 <template>
   <v-app-bar class="container" app>
       <v-spacer></v-spacer>
-        <v-btn id="btn-home" text><v-icon class="mr-1">mdi-home</v-icon>Home</v-btn>
+        <v-btn id="btn-home" text @click="$router.push('/')"><v-icon class="mr-1">mdi-home</v-icon>Home</v-btn>
       <v-spacer></v-spacer>
   </v-app-bar>
 </template>
