@@ -7,7 +7,7 @@
     </v-row>
   </v-container>
   <v-alert class="desp-heroes" color="purple darken-1" v-model="alert" border="start" close-label="Close Alert" variant="tonal"><span class="text-descript">!Te damos la bienvenida al Nexo¡!En este reino entre reinos, todo es posible¡ Elige entre decenas de heroes legendarios de todo el panteón de Blizzard, personaloza sus talentos y habilidades en medio del combate y lucha en una infinidad de campos de batalla que redefinen el genero. ¡Esto no es un MOBA promedio, esto es Heroes of the Storm¡</span></v-alert>
-  </template>
+</template>
 
 <script> 
 import { defineComponent } from 'vue';
