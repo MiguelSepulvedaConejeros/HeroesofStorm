@@ -15,7 +15,7 @@
         </v-row>
         <v-row class="content-heroes">
             <div class="table-container">
-                <div class="full-width-table">
+                <table class="full-width-table">
                     <thead>
                         <tr>
                             <th>Heroes</th>
@@ -34,7 +34,7 @@
                             <td>{{ hero.attack }}</td>
                         </tr>
                     </tbody>
-                </div>
+                </table>
             </div>
         </v-row>
     </v-container>
